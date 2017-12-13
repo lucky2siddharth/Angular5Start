@@ -1,0 +1,6 @@
+1) Tutorial link:
+    https://coursetro.com/courses/19/Learn-Angular-5-from-Scratch---Angular-5-Tutorial/lessons/3
+2) Generate Project
+    ng new <project_name> --style=scss --routing
+3) Create a component
+    ng g c <component_name>
