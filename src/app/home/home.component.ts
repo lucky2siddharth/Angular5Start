@@ -43,4 +43,8 @@ export class HomeComponent implements OnInit {
     console.log("changed");
   }
 
+  remove(index) {
+    console.log(index);
+  }
+
 }
