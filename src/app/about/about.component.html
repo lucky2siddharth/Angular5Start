@@ -1,6 +1,13 @@
 <p>
-  about works!
+  about Page!
 </p>
+
+<ul>
+  <li *ngFor="let goal of goals">
+    {{goal}}
+  </li>
+</ul>
+
 <span>
   <a href="" (click)="sendMeHome()">Click on me to go back to home</a>
 </span>
