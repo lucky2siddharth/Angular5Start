@@ -10,7 +10,9 @@
   <div class="col">
     <p class="sm">Use below fom to add new bucket list goal.</p>
     <form>
-      <input type="text" class="txt" name="item" placeholder="Life goal..">
+      <input type="text" class="txt" name="item" placeholder="Life goal.." [(ngModel)]="goalText">
+      <br>
+      <span>{{goalText}}</span>
       <!-- <input type="submit" value="{{btnText}}" class="btn"> -->
       <input type="submit" [value]="btnText" class="btn">
     </form>
