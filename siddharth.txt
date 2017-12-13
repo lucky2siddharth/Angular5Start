@@ -8,3 +8,11 @@
 5) Generate Service
     ng g s <service_name>
 6) Best way to share data between components by using 'behaviorSubject' of rxJS.
+7) Build
+    ng build ----> for normal build
+    ng build --prod ------> for production build (highly optimised)
+8) To run in production build
+    ng build --prod --base-href="myurl"
+9) Other way to deploy through GIT
+    npm install -g angular-cli-ghpages
+    Deploy then enter 'angular-cli-ghpage'
