@@ -4,3 +4,4 @@
     ng new <project_name> --style=scss --routing
 3) Create a component
     ng g c <component_name>
+4) To use ng-model we have to import FormsModule in app.module.ts
