@@ -44,7 +44,7 @@ export class HomeComponent implements OnInit {
   }
 
   remove(index) {
-    console.log(index);
+    this.goals.splice(index, 1);
   }
 
 }
