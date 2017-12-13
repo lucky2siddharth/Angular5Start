@@ -23,5 +23,8 @@ export class HomeComponent implements OnInit {
     this.goalText = '';
     this.itemCount = this.goals.length;
   }
+  changed() {
+    console.log("changed");
+  }
 
 }
