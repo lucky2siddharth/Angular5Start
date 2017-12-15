@@ -14,6 +14,7 @@ const routes: Routes = [
     component: AboutComponent
   }
 ];
+// Ng module to start project
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
